@@ -1,0 +1,25 @@
+public class LOOPEXAMPLE1
+{
+    public static void main (String args[])
+        {
+            Loop1();  
+        }
+    
+    
+    public static void Loop1()
+        {
+            for (int i = 20; i > 0; i-=2)   
+            {  
+                 System.out.print(i+" ");  
+            }
+            
+            System.out.println("All done!");
+            
+            for (int i = 33; i > 0; i-=3)   
+            {  
+                 System.out.print(i+", ");  
+            } 
+            System.out.println("All done!");
+        }
+
+}
